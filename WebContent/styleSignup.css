@@ -1,0 +1,134 @@
+@charset "ISO-8859-1";
+
+*{
+	margin: 0;
+	padding: 0:	
+}
+
+body{
+	margin: 0;
+	padding: 0;
+	font-family: sans-serif;
+	background: transparent;
+	}
+	
+.main{
+	width: 100%;
+	background: url(Plane.jpg);
+	background-position: center;
+	background-size: cover;
+	height: 109vh;	
+}
+
+.navbar{
+	width: 100%;
+	height: 75px;
+	margin: auto;
+}
+
+.icon{
+	width: 200px;
+	float: left;
+	height: 70px;
+}
+
+.logo{
+	color: #7FFF00;
+	font-size: 35px;
+	font-family: Fantasy;
+	padding-left: 20px;
+	float: left;
+	padding-top: 10px;
+}
+
+.menu{
+	width: 400px;
+	float: right;
+	height: 70px;
+	margin-right: 200px;
+}
+
+ul{
+	float: right;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+ul li{
+	list-style: none;
+	margin-right: 62px;
+	margin-top: 27px;
+	font-size: 14px;
+}
+
+ul li a{
+	text-decoration: none;
+	color: #00000;
+	font-family: Arial;
+	font-weight: bold;
+	transition: 0.4s ease-in-out;
+}
+
+ul li a:hover{
+	color: #ff7200;
+}
+
+
+
+
+
+	.signupBox{
+	width: 300px;
+	padding: 40px;
+	position: absolute;
+	top: 30%;
+	left: 75%;
+	background: rgba(0,0,0,0.8);
+	text-align: center;
+	border-radius: 15px;
+	}
+	
+	.signupBox h1{
+	color: white;
+	font-weight: 500;
+	}
+	
+	.signupBox input[type = "text"],.signupBox input[type = "email"], .signupBox input[type = "password"]{
+	border: 0;
+	background: none;
+	display: block;
+	margin: 20px auto;
+	text-align: center;
+	border: 2px solid #3498db;
+	padding: 14px 10px;
+	width: 200px;
+	outline: none;
+	color: white;
+	border-radius: 24px;
+	transition: 0.25s;
+	}
+	
+	.signupBox input[type = "text"]:focus,.signupBox input[type = "email"]:focus, .signupBox input[type = "password"]:focus{
+	width: 280px;
+	border-color: #2ecc71;
+	}
+	
+	.signupBox button[type = "submit"]{
+	border: 0;
+	background: none;
+	display: block;
+	margin: 20px auto;
+	text-align: center;
+	border: 2px solid #2ecc71;
+	padding: 14px 40px;
+	outline: none;
+	color: white;
+	border-radius: 24px;
+	transition: 0.25s;
+	cursor: pointer;
+	}
+	
+	.signupBox button[type = "submit"]:hover{
+	background-color: #2ecc71;
+	}
